@@ -1,0 +1,740 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Insight Club</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/variables-blue.css" rel="stylesheet" />
+    <!-- <link href="assets/css/variables-green.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-orange.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-purple.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-red.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/variables-pink.css" rel="stylesheet"> -->
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+
+  <body>
+      <!-- ======= Header ======= -->
+      <header id="header" class="header fixed-top" data-scrollto-offset="0">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+          <a
+            href=""
+            class="logo d-flex align-items-center scrollto me-auto me-lg-0"
+          >
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <img
+              class="img-fluid img-responsive rounded"
+              src="assets/img/logo.png"
+              alt=""
+            />
+            <h2>Insight Club AUB<span>.</span></h2>
+          </a>
+          <a class=" scrollto" ></a>
+        </div>
+
+        <div>
+          <a href="" class="float-right mr-5" style="bottom: 10px ;">
+            <span>Log Out</span>
+          </a>
+
+        </div>
+
+      </header>
+      <!-- End Header -->
+
+  <main id="main">
+
+    <section style="position: relative;top:50px; left: 20px">
+        
+      
+        <!-- Button trigger modal -->
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#addsubadmin">Add SubAdmin</button>
+            </div>
+        </div>
+
+        <!-- Modal add subadmin-->
+        <div class="modal fade" id="addsubadmin" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel1">Add SubAdmin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                
+                <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="name">First Name</label>
+                          <input type="text" class="form-control" placeholder="Enter your First Name">
+                      </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your Last Name">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="name">Password</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                  </div>
+
+
+
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class= "col-md-3">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#addcommitte">Add Committe</button>
+            </div>
+        </div>
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="addcommitte" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Committe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+
+                <div class="col-md-1">
+                  <div class="media mb-2">
+                    <div class="row">
+                      <img src="assets/img/no-profile.png" id="img_client" alt="clients avatar" class="client-avatar clients-avatar-shadow rounded mr-2 my-25 cursor-pointer ml-1" height="90" width="40" />
+
+                      <div class="media-body mt-3">
+
+                        <div class="col-12 d-flex mt-1 px-0">
+                          <label class="btn btn-primary mr-2 mb-0" for="fileupload">
+                            <a class="d-none d-sm-block" id="btn_change_profile_client">Add</a>
+                            <input class="form-control" type="file" name="fileupload" id="fileupload" hidden accept="image/png, image/jpeg, image/jpg" />
+
+                            <span class="d-block d-sm-none">
+                              <i class="mr-0" data-feather="edit"></i>
+                            </span>
+                          </label>
+
+                          <button class="btn btn-outline-secondary d-none d-sm-block" id="btn_remove_picture_client">Remove</button>
+
+                        </div>
+                        <span id="fileupload_error_client" class="error" style="display:none;color:#ea5455; font-size : 0.857rem;">Please Upload a photo.</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" placeholder="Enter the committe's Name">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter the Quote" spellcheck="false"></textarea>
+                  </div>
+                </div>
+
+             
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#addsubcommitte">Add Subcommitte</button>
+            </div>
+        </div>
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="addsubcommitte" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Subcommitte</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="col-md-1">
+
+
+                  <div class="media mb-2">
+                    <div class="row">
+                      <img src="assets/img/no-profile.png" id="img_client" alt="clients avatar" class="client-avatar clients-avatar-shadow rounded mr-2 my-25 cursor-pointer ml-1" height="90" width="40" />
+
+                      <div class="media-body mt-3">
+
+                        <div class="col-12 d-flex mt-1 px-0">
+                          <label class="btn btn-primary mr-2 mb-0" for="fileupload">
+                            <a class="d-none d-sm-block" id="btn_change_subcommitte_picture">Add</a>
+                            <input class="form-control" type="file" name="fileupload" id="fileupload" hidden accept="image/png, image/jpeg, image/jpg" />
+
+                            <span class="d-block d-sm-none">
+                              <i class="mr-0" data-feather="edit"></i>
+                            </span>
+                          </label>
+
+                          <button class="btn btn-outline-secondary d-none d-sm-block" id="btn_remove_picture_client">Remove</button>
+
+                        </div>
+                        <span id="fileupload_error_subcommitte" class="error" style="display:none;color:#ea5455; font-size : 0.857rem;">Please Upload a photo.</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Title of the Subcommitte</label>
+                      <input type="text" class="form-control" placeholder="Enter the title here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter the description here" spellcheck="false"></textarea>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#add_future_event">Add a Future Event</button>
+            </div>
+        </div>
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="add_future_event" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add a Future Event</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="col-md-1">
+                  <div class="media mb-2">
+                    <div class="row">
+                      <img src="assets/img/no-profile.png" id="img_client" alt="clients avatar" class="client-avatar clients-avatar-shadow rounded mr-2 my-25 cursor-pointer ml-1" height="90" width="40" />
+
+                      <div class="media-body mt-3">
+
+                        <div class="col-12 d-flex mt-1 px-0">
+                          <label class="btn btn-primary mr-2 mb-0" for="fileupload">
+                            <a class="d-none d-sm-block" id="btn_change_futureevent_picture">Add</a>
+                            <input class="form-control" type="file" name="fileupload" id="fileupload" hidden accept="image/png, image/jpeg, image/jpg" />
+
+                            <span class="d-block d-sm-none">
+                              <i class="mr-0" data-feather="edit"></i>
+                            </span>
+                          </label>
+
+                          <button class="btn btn-outline-secondary d-none d-sm-block" id="btn_remove_picture_futureevent">Remove</button>
+
+                        </div>
+                        <span id="fileupload_error_futurevent" class="error" style="display:none;color:#ea5455; font-size : 0.857rem;">Please Upload a photo.</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Title</label>
+                      <input type="text" class="form-control" placeholder="Enter the title here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Date</label>
+                      <input type="text" class="form-control" placeholder="Enter the date here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Location</label>
+                      <input type="text" class="form-control" placeholder="Enter the location here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter the description here" spellcheck="false"></textarea>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#add_old_event">Add an Old Event</button>
+            </div>
+        </div>
+
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="add_old_event" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add an Old Event</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="col-md-1">
+                  <div class="media mb-2">
+                    <div class="row">
+                      <img src="assets/img/no-profile.png" id="img_old_event" alt="clients avatar" class="client-avatar clients-avatar-shadow rounded mr-2 my-25 cursor-pointer ml-1" height="90" width="40" />
+
+                      <div class="media-body mt-3">
+
+                        <div class="col-12 d-flex mt-1 px-0">
+                          <label class="btn btn-primary mr-2 mb-0" for="fileupload">
+                            <a class="d-none d-sm-block" id="btn_change_oldevent_picture">Add</a>
+                            <input class="form-control" type="file" name="fileupload" id="fileupload" hidden accept="image/png, image/jpeg, image/jpg" />
+
+                            <span class="d-block d-sm-none">
+                              <i class="mr-0" data-feather="edit"></i>
+                            </span>
+                          </label>
+
+                          <button class="btn btn-outline-secondary d-none d-sm-block" id="btn_remove_picture_oldevent">Remove</button>
+
+                        </div>
+                        <span id="fileupload_error_oldevent" class="error" style="display:none;color:#ea5455; font-size : 0.857rem;">Please Upload a photo.</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Title</label>
+                      <input type="text" class="form-control" placeholder="Enter the title here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="old_event_discription" rows="3" placeholder="Enter the description here" spellcheck="false"></textarea>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <div class="row">
+                              <div class="form-group col-md-auto">
+              
+                                  <label class="mt-1" for=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>&nbsp;Attachments </label>
+                              </div>
+                              <div class="form-group col-md-auto ">
+                                  <a id="clear-dropzone"><span class="badge badge-pill badge-light-danger mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash mr-25">
+                                              <polyline points="3 6 5 6 21 6"></polyline>
+                                              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                          </svg>
+                                          <span class="align-middle">Clear</span></span></a>
+                              </div>
+                          </div>
+              
+                          <form action="#" class="dropzone dropzone-area dz-clickable dz-started" id="dpz-remove-all-thumb" style=" border : 1px solid #4a5164;">
+                              <div class="dz-message">Drop files here or click to upload.</div>
+                          </form>
+              
+                      </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#generate_blog">Generate a Blog</button>
+            </div>
+        </div>
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="generate_blog" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add a New Blog</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                
+                <div class="col-md-1">
+                  <div class="media mb-2">
+                    <div class="row">
+                      <img src="assets/img/no-profile.png" id="img_blog" alt="clients avatar" class="client-avatar clients-avatar-shadow rounded mr-2 my-25 cursor-pointer ml-1" height="90" width="40" />
+
+                      <div class="media-body mt-3">
+
+                        <div class="col-12 d-flex mt-1 px-0">
+                          <label class="btn btn-primary mr-2 mb-0" for="fileupload">
+                            <a class="d-none d-sm-block" id="btn_change_blog_picture">Add</a>
+                            <input class="form-control" type="file" name="fileupload" id="fileupload_blog" hidden accept="image/png, image/jpeg, image/jpg" />
+
+                            <span class="d-block d-sm-none">
+                              <i class="mr-0" data-feather="edit"></i>
+                            </span>
+                          </label>
+
+                          <button class="btn btn-outline-secondary d-none d-sm-block" id="btn_remove_picture_blog">Remove</button>
+
+                        </div>
+                        <span id="fileupload_error_blog" class="error" style="display:none;color:#ea5455; font-size : 0.857rem;">Please Upload a photo.</span>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Title</label>
+                      <input type="text" class="form-control" placeholder="Enter the title here">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Owner</label>
+                      <input type="text" class="form-control" placeholder="Enter the owner of the blog">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Date</label>
+                      <input type="text" class="form-control" placeholder="Enter the date">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="blog_discription" rows="3" placeholder="Enter the description here" spellcheck="false"></textarea>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class= "col-md-6">
+                <button type="button" class="btn-lg btn-primary" data-toggle="modal" data-target="#add_faq">Add an FAQ</button>
+            </div>
+        </div>
+
+         <!-- Modal add subadmin-->
+         <div class="modal fade" id="add_faq" tabindex="-1" role="dialog" aria-labelledby="addsubadminLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add an FAQ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="name">Question</label>
+                      <input type="text" class="form-control" placeholder="Enter the owner of the blog">
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" id="blog_discription" rows="3" placeholder="Enter the answer here" spellcheck="false"></textarea>
+                  </div>
+                </div>
+
+
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add FAQ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+  </main><!-- End #main -->
+  
+
+      <!-- ======= Footer ======= -->
+      <footer id="footer" class="footer">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-info">
+                  <h3>Insight Club</h3>
+                  <p>
+                    Bliss Hamra <br />
+                    Beirut, Lebanon<br /><br />
+                    <strong>Phone:</strong> +961 71 635611<br />
+                    <strong>Email:</strong> insightclub.aub@gmail.com<br />
+                  </p>
+                </div>
+              </div>
+  
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Student Life Guide</a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Courses’ Catalogue</a>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#">Privacy policy</a>
+                  </li>
+                </ul>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links"></div>
+  
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Motto:</h4>
+                <p style="font-size: 17px;">ومَن أَحسَنُ قوْلاً ممَّن دعَا إلى اللَّه و عمِلَ صالِحاً و قال إنَّنِي من" المُسلمين" (فصلت 33)</p>
+                <p style="font-size: 17px;">{Who is better in speech than one who calls (men) to Allah, works righteousness, and says, "I am of those who bow in Islam"?} (41:33)</p>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="footer-legal text-center">
+          <div
+            class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center"
+          >
+            <div
+              class="d-flex flex-column align-items-center align-items-lg-start"
+            >
+              <div class="copyright">
+                &copy; Copyright
+                <strong
+                  ><span
+                    ><u style="color: gray">Insight Club AUB</u></span
+                  ></strong
+                >. All Rights Reserved
+              </div>
+            </div>
+  
+            <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a
+                href="https://www.facebook.com/AUBInsightClub/"
+                target="_blank"
+                class="facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/insight_club_aub/"
+                target="_blank"
+                class="instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/aub-insight-club/"
+                target="_blank"
+                class="linkedin"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+
+    
+
+
+        <!-- Vendor JS Files -->
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/html-email-form/validate.js"></script>
+
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+
+      <script src="assets/js/file-uploader.js"></script>
+
+      <script src="assets/js/file-uploader.min.js"></script>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+
+
+
+
+
+</html>

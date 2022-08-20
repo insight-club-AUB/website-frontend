@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,7 +51,7 @@
 
   <body>
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+    <header id="header" class="header fixed-top" data--offset="0">
       <div
         class="container-fluid d-flex align-items-center justify-content-between"
       >
@@ -64,10 +62,10 @@
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img
             class="img-fluid img-responsive rounded"
-            src="assets/img/logo.png"
+            src="assets/img/insightlogo.jpg"
             alt=""
           />
-          <h2>Insight Club<span>.</span></h2>
+          <h2>Insight Club AUB<span>.</span></h2>
         </a>
 
         <nav id="navbar" class="navbar">
@@ -77,30 +75,45 @@
             </li>
 
             <li>
-              <a class="nav-link scrollto" href="index.php#about">About</a>
+              <a class="nav-link scrollto" href="index-3.html#about">About</a>
             </li>
             <li>
-              <a class="nav-link scrollto" href="index.php#services"
+              <a class="nav-link scrollto" href="index-3.html#services"
                 >Services</a
               >
             </li>
-           
-            
-            <li><a href="blog.php">Blog</a></li>
+
+            <li><a href="blog.html">Blog</a></li>
 
             <li>
-              <a class="nav-link scrollto" href="index.php#contact">Contact</a>
+              <a class="nav-link scrollto" href="index-3.html#contact"
+                >Contact</a
+              >
             </li>
             <li>
-              <a class="nav-link scrollto" href="">Join Us</a>
+              <a class="nav-link scrollto" href="index-3#registration"
+                >Join Us</a
+              >
             </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle d-none"></i>
         </nav>
         <!-- .navbar -->
+        <a class="d-flex align-items-center scrollto me-auto me-lg-3">
+          <img
 
-        <a class="btn-getstarted scrollto" href="Dashboard/login.php">Admin Login</a>
+          id= "anniversary_img"
+          data-toggle="modal" 
+          data-target="#anniversaryModal"
+          class="img-fluid img-responsive rounded"
+          src="assets/img/40anni2.png"
+          alt=""
+          width="125"
+          height="100"
+        />
+        </a>
       </div>
+
     </header>
     <!-- End Header -->
 
@@ -112,12 +125,12 @@
         class="container d-flex flex-column align-items-center position-relative"
         data-aos="zoom-out"
       >
-        <h2>Welcome to <span>Insight Club Page</span></h2>
-        <p>We are an independent, politically unaffiliated club at AUB</p>
+        <h2>Welcome to <span>Insight Club {AUB} Page</span></h2>
+        <p>A supportive community guided by the prophetic purpose of mercy for all people.</p>
         <div class="d-flex">
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
           <a
-            href="https://mailaub-my.sharepoint.com/:v:/r/personal/mal09_mail_aub_edu/Documents/Insight%20Cabinet%202022-2023/End%20of%20Year%20Gathering%202022/video1.mp4?csf=1&web=1&e=kBAy6q"
+            href="https://youtu.be/G7UyE4TsM88"
             class="glightbox btn-watch-video d-flex align-items-center"
             ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
           >
@@ -132,13 +145,16 @@
           <div class="row gy-3">
             <div class="col-xl-5 col-md-6 d-flex" data-aos="zoom-out">
               <div class="service-item position-relative">
-                <div class="icon"><i class="bi bi-activity icon"></i></div>
-                <h3><a href="" class="stretched-link">Strengthening Certainty In Belief</a></h3>
-                <p style="font-size: 20px;">
-                  فَاسْتَمْسِكْ بِالَّذِي أُوحِيَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ 
-                  
-                </p>{الزخرف 43}
-
+                <h3>
+                  <a href="" class="stretched-link"
+                    >Strengthening Certainty In Belief</a
+                  >
+                </h3>
+                <p style="font-size: 20px">
+                  فَاسْتَمْسِكْ بِالَّذِي أُوحِيَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ
+                  صِرَاطٍ مُسْتَقِيمٍ
+                </p>
+                {الزخرف 43}
               </div>
             </div>
             <!-- End Service Item -->
@@ -149,13 +165,11 @@
               data-aos-delay="200"
             >
               <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles icon"></i>
-                </div>
                 <h3><a href="" class="stretched-link">Fraternity</a></h3>
-                <p style="font-size: 20px;">
-                 قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ 
-                </p> {القصص 35}
+                <p style="font-size: 20px">
+                  قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ
+                </p>
+                {القصص 35}
               </div>
             </div>
             <!-- End Service Item -->
@@ -166,19 +180,18 @@
               data-aos-delay="400"
             >
               <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week icon"></i>
-                </div>
-                <h3><a href="" class="stretched-link">Demonstrating
-                  Virtues of Islam</a></h3>
-                <p style="font-size: 20px;">
-                  إِنَّ هَٰذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ 
-                </p>{الاسراء 9}
+                <h3>
+                  <a href="" class="stretched-link"
+                    >Demonstrating Virtues of Islam</a
+                  >
+                </h3>
+                <p style="font-size: 20px">
+                  إِنَّ هَٰذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ
+                </p>
+                {الاسراء 9}
               </div>
             </div>
             <!-- End Service Item -->
-
-          
           </div>
         </div>
       </section>
@@ -189,39 +202,51 @@
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>About Us</h2>
-            <p style="color: rgb(44, 38, 38);  font-size: 22px;">
-              A supportive community guided by the prophetic purpose of mercy for all people. We develop our members in various aspects
-              of life. Social, Physical, Academic, Spiritual, and Intellectual.
+            <p style="color: rgb(44, 38, 38); font-size: 22px; text-align: center">
+              The Insight Club is an independent student club at the American University of Beirut (AUB).
+              Our mission is to provide perspectives on a well-rounded way of living and appreciating life through balancing between physical, intellectual, and spiritual needs. 
+              Our events include charity projects, cultural celebrations, and intellectual activities.
+              We aim to provide our members with opportunities to grow and with new dimensions to the diverse AUB experience. We develop our members in various aspects of life.
+              Social, Physical, Academic, Spiritual, and Intellectual.
+
             </p>
           </div>
 
           <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-5">
               <div class="about-img">
-                <img src="assets/img/about.jpg" class="img-fluid" alt="" />
+                <img src="assets/img/cta.png" class="img-fluid" alt="" />
               </div>
             </div>
 
             <div class="col-lg-7">
-              <h3 class="pt-0 pt-lg-5">
-               Our Programs
-              </h3>
+              <h3 class="pt-0 pt-lg-5">Our Programs</h3>
 
               <!-- Tabs -->
               <ul class="nav nav-pills mb-3">
                 <li>
                   <a class="nav-link active" data-bs-toggle="pill" href="#tab1"
-                    >Saepe fuga</a
+                    >Social</a
                   >
                 </li>
                 <li>
                   <a class="nav-link" data-bs-toggle="pill" href="#tab2"
-                    >Voluptates</a
+                    >Spiritual</a
                   >
                 </li>
                 <li>
                   <a class="nav-link" data-bs-toggle="pill" href="#tab3"
-                    >Corrupti</a
+                    >Physical</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" data-bs-toggle="pill" href="#tab4"
+                    >Academic</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link" data-bs-toggle="pill" href="#tab5"
+                    >Intellectual</a
                   >
                 </li>
               </ul>
@@ -231,52 +256,34 @@
               <div class="tab-content">
                 <div class="tab-pane fade show active" id="tab1">
                   <p class="fst-italic">
-                    Consequuntur inventore voluptates consequatur aut vel et.
-                    Eos doloribus expedita. Sapiente atque consequatur minima
-                    nihil quae aspernatur quo suscipit voluptatem.
+                    Our club social life is built on we are brothers and sisters in Islam.
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
                     <i class="bi bi-check2"></i>
                     <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
+                      Interactions between Members
                     </h4>
                   </div>
                   <p>
-                    Laborum omnis voluptates voluptas qui sit aliquam
-                    blanditiis. Sapiente minima commodi dolorum non eveniet
-                    magni quaerat nemo et.
+                    Interactions on the groups are never limited with constant support, shared pictures, and feelings.
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
                     <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                    <h4>Friendly gatherings </h4>
                   </div>
                   <p>
-                    Non quod totam minus repellendus autem sint velit. Rerum
-                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
-                    qui inventore eligendi voluptates nisi at. Dolorem quo
-                    tempora. Quia et perferendis.
-                  </p>
+                    We can not deny our favorite game is “find the insightee” on campus and have a to go friend 
+                    Movie night for sisters, ping pong game for brothers and many other activites done among members.
 
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                  </div>
-                  <p>
-                    Eius alias aut cupiditate. Dolor voluptates animi ut
-                    blanditiis quos nam. Magnam officia aut ut alias quo
-                    explicabo ullam esse. Sunt magnam et dolorem eaque magnam
-                    odit enim quaerat. Vero error error voluptatem eum.
                   </p>
                 </div>
                 <!-- End Tab 1 Content -->
 
                 <div class="tab-pane fade show" id="tab2">
                   <p class="fst-italic">
-                    Consequuntur inventore voluptates consequatur aut vel et.
-                    Eos doloribus expedita. Sapiente atque consequatur minima
-                    nihil quae aspernatur quo suscipit voluptatem.
+                    One of the main aims of the club is to strengthen each member Islam through:
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
@@ -286,9 +293,7 @@
                     </h4>
                   </div>
                   <p>
-                    Laborum omnis voluptates voluptas qui sit aliquam
-                    blanditiis. Sapiente minima commodi dolorum non eveniet
-                    magni quaerat nemo et.
+                    Weekly events such as: Halaka with Sheikh, Quran to read and recite Quran, and intellectual discussions 
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
@@ -296,10 +301,7 @@
                     <h4>Incidunt non veritatis illum ea ut nisi</h4>
                   </div>
                   <p>
-                    Non quod totam minus repellendus autem sint velit. Rerum
-                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
-                    qui inventore eligendi voluptates nisi at. Dolorem quo
-                    tempora. Quia et perferendis.
+                    Events according to Islamic calendar such as Islamic new year and Ramadan event, night, Tarawih and congregational prayers.  
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
@@ -307,19 +309,14 @@
                     <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
                   </div>
                   <p>
-                    Eius alias aut cupiditate. Dolor voluptates animi ut
-                    blanditiis quos nam. Magnam officia aut ut alias quo
-                    explicabo ullam esse. Sunt magnam et dolorem eaque magnam
-                    odit enim quaerat. Vero error error voluptatem eum.
+                    Discussions and activities among members to enhance spiritual spirits.
                   </p>
                 </div>
                 <!-- End Tab 2 Content -->
 
                 <div class="tab-pane fade show" id="tab3">
                   <p class="fst-italic">
-                    Consequuntur inventore voluptates consequatur aut vel et.
-                    Eos doloribus expedita. Sapiente atque consequatur minima
-                    nihil quae aspernatur quo suscipit voluptatem.
+                    Several physical activities were organized among sisters and brothers:
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
@@ -329,9 +326,7 @@
                     </h4>
                   </div>
                   <p>
-                    Laborum omnis voluptates voluptas qui sit aliquam
-                    blanditiis. Sapiente minima commodi dolorum non eveniet
-                    magni quaerat nemo et.
+                    Each made WhatsApp groups to organize sport activities like basketball, swimming, pingpong, volleyball and many other
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
@@ -339,178 +334,67 @@
                     <h4>Incidunt non veritatis illum ea ut nisi</h4>
                   </div>
                   <p>
-                    Non quod totam minus repellendus autem sint velit. Rerum
-                    debitis facere soluta tenetur. Iure molestiae assumenda sunt
-                    qui inventore eligendi voluptates nisi at. Dolorem quo
-                    tempora. Quia et perferendis.
+                    Club organized group activities such as hiking trip to the Barouk Cedars reserve 
+                  </p>
+
+                </div>
+                <!-- End Tab 3 Content -->
+                <div class="tab-pane fade show" id="tab4">
+                  <p class="fst-italic">
+                    Insight club supports on the academic progress through 
                   </p>
 
                   <div class="d-flex align-items-center mt-4">
                     <i class="bi bi-check2"></i>
-                    <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                    <h4>
+                      Repudiandae rerum velit modi et officia quasi facilis
+                    </h4>
                   </div>
                   <p>
-                    Eius alias aut cupiditate. Dolor voluptates animi ut
-                    blanditiis quos nam. Magnam officia aut ut alias quo
-                    explicabo ullam esse. Sunt magnam et dolorem eaque magnam
-                    odit enim quaerat. Vero error error voluptatem eum.
+                    Organizing Book exchange program at the beginning of every semester where members, alumni and libraries donate books for the help of the other students.
                   </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-check2"></i>
+                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                  </div>
+                  <p>
+                    Tutoring program through developing 1-1 sessions and group classes before exams 
+                    Uploading several previouses on prexams website
+                    Building courses databases for every major  
+                  </p>
+
                 </div>
-                <!-- End Tab 3 Content -->
+                <!-- End Tab 4 Content -->
+                <div class="tab-pane fade show" id="tab5">
+                  <p class="fst-italic">
+                  </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-check2"></i>
+                    <h4>
+                      Repudiandae rerum velit modi et officia quasi facilis
+                    </h4>
+                  </div>
+                  <p>
+                    Intellectual discussions take place every week to discuss and negotiate about very confusing and challenging topics between members and sometimes inviting expertise into the matter.                   </p>
+
+                  <div class="d-flex align-items-center mt-4">
+                    <i class="bi bi-check2"></i>
+                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                  </div>
+                  <p>
+                    Club organized group activities such as hiking trip to the Barouk Cedars reserve 
+                  </p>
+
+                </div>
+                <!-- End Tab 5 Content -->
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- End About Section -->
-
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container" data-aos="zoom-out">
-          <div class="clients-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/clients/client-8.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Clients Section -->
-
-      <!-- ======= Call To Action Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-out">
-          <div class="row g-5">
-            <div
-              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
-            >
-              <h3>Insight's Tutoring Program</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
-              <div class ="row-md-6">
-                <a class="cta-btn align-self-start" href="https://forms.office.com/r/5mUiJSHwUs" target="_blank">Volunteer</a>
-                <a  class="cta-btn align-self-start ml-4" href="https://forms.office.com/r/CZCLdxZs95" target="_blank">Need Help</a>
-              </div>
-
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center"
-            >
-              <div class="img">
-                <img src="assets/img/cta.png" alt="" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Call To Action Section -->
-
-      <!-- ======= On Focus Section ======= -->
-      <section id="onfocus" class="onfocus">
-        <div class="container-fluid p-0" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-lg-6 video-play position-relative">
-              <a
-                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                class="glightbox play-btn"
-              ></a>
-            </div>
-            <div class="col-lg-6">
-              <div
-                class="content d-flex flex-column justify-content-center h-100"
-              >
-                <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Duis aute irure dolor in
-                    reprehenderit in voluptate velit.
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle"></i> Ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate trideta storacalaperda mastiro
-                    dolore eu fugiat nulla pariatur.
-                  </li>
-                </ul>
-                <a href="#" class="read-more align-self-start"
-                  ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End On Focus Section -->
-
-
- 
 
       <!-- ======= Subcommitte Section ======= -->
       <section id="features" class="features">
@@ -555,7 +439,6 @@
               </a>
             </li>
             <!-- End Tab 4 Nav -->
-
           </ul>
 
           <div class="tab-content">
@@ -629,23 +512,20 @@
                   </p>
                   <ul>
                     <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat.
+                      <i class="bi bi-check-circle-fill"></i> 
+                      At the end of every week, unique newsletter full of insight Islamic spirit is sent including 
                     </li>
                     <li>
-                      <i class="bi bi-check-circle-fill"></i> Duis aute irure
-                      dolor in reprehenderit in voluptate velit.
+                      <i class="bi bi-check-circle-fill"></i> 
+                      A weekly motivation, Hadith, Duaa and video about a specific theme 
                     </li>
                     <li>
-                      <i class="bi bi-check-circle-fill"></i> Provident mollitia
-                      neque rerum asperiores dolores quos qui a. Ipsum neque
-                      dolor voluptate nisi sed.
+                      <i class="bi bi-check-circle-fill"></i>
+                      Summary of the club events with memorable pictures 
                     </li>
                     <li>
-                      <i class="bi bi-check-circle-fill"></i> Ullamco laboris
-                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                      dolor in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
+                      <i class="bi bi-check-circle-fill"></i>
+                      Announcement of the upcoming events with needed details 
                     </li>
                   </ul>
                 </div>
@@ -839,106 +719,132 @@
       </section>
       <!-- End Subcommitte Section -->
 
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+      <!-- ======= Insight Tutoring Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-out">
+          <div class="row g-5">
+            <div
+              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            >
+              <h3>Insight's Tutoring Program</h3>
+              <p style="text-align: justify">
+                Serving the purpose of mutual support and improving our members’
+                academic performance, the Insight Club provides tutoring
+                sessions in diverse courses from different majors. Club members
+                actively work and coordinate to provide educational aid through
+                various resources, documents, lectures, notes, previouses, etc…
+                Tutoring sessions take place inside AUB and in accordance to the
+                participant’s availability.
+              </p>
+              <div class="row-md-6">
+                <a
+                  class="cta-btn align-self-start"
+                  href="https://forms.office.com/r/5mUiJSHwUs"
+                  target="_blank"
+                  >Volunteer</a
+                >
+                <a
+                  class="cta-btn align-self-start ml-4"
+                  href="https://forms.office.com/r/CZCLdxZs95"
+                  target="_blank"
+                  >Need Help</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center"
+            >
+              <div class="img">
+                <img src="assets/img/about.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Insight tutoring  Section -->
+
+      <!-- ======= Insight guide/Catalog Section ======= -->
+      <section id="insight_guide" class="cta">
+        <div class="container" data-aos="zoom-out">
+          <div class="row g-5">
+            <div
+              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            >
+              <h3>Insight's Sophomores Guide</h3>
+              <p style="text-align: justify">
+                We are aware how stressful and confusing is the first year for
+                many students. Thus, our club prepared a guide for sophomores to
+                cover all their questions and needs such as students services,
+                sports, consulting and many others with special tips for
+                Muslims. Kindly check the pdf.
+              </p>
+              <div class="row-md-6">
+                <a
+                  class="cta-btn align-self-start ml-4"
+                  href="https://drive.google.com/file/d/1WkXKxXKPl-SC2AV0f6yVOGaglNOBRrDq/view"
+                  target="_blank"
+                  >Check</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 order-first order-md-last d-flex align-items-center ml-5"
+            >
+              <div class="img">
+                <img src="assets/img/pdf.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="insight_catalog" class="cta">
+        <div class="container" data-aos="zoom-out">
+          <div class="row g-5">
+            <div
+              class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first"
+            >
+              <h3>Sophomore & Electives Course Catalogue
+              </h3>
+              <p style="text-align: justify">
+                In our Catalogue, we have a special guidance for different majors in sophomore year and some recommended electives. It includes guidance about when to take each course, with whom preferably, and some advice. 
+                Feel free to check it
+              </p>
+              <div class="row-md-6">
+                <a
+                  class="cta-btn align-self-start ml-4"
+                  href="https://drive.google.com/file/d/1Oisin9Kx43NBxE_fdatX3T_eVBRcuC1r/view"
+                  target="_blank"
+                  >Check</a
+                >
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 order-first order-md-last d-flex align-items-center ml-5"
+            >
+              <div class="img">
+                <img src="assets/img/catalog_pic.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Insight guide/catalog  Section -->
+
+      <!-- ======= Future Events Section ======= -->
+      <section id="futureevents" class="services">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Our Services</h2>
+            <h2>Our Future Events</h2>
             <p>
-              Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam
-              occaecati dssumenda quas ut ad dolores adipisci aliquam.
+             In this section, you can see our future events.
             </p>
           </div>
 
           <div class="row gy-5">
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="service-item">
-                <div class="img">
-                  <img
-                    src="assets/img/services-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="details position-relative">
-                  <div class="icon">
-                    <i class="bi bi-activity"></i>
-                  </div>
-                  <a href="#" class="stretched-link">
-                    <h3>Nesciunt Mete</h3>
-                  </a>
-                  <p>
-                    Provident nihil minus qui consequatur non omnis maiores. Eos
-                    accusantium minus dolores iure perferendis.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="service-item">
-                <div class="img">
-                  <img
-                    src="assets/img/services-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="details position-relative">
-                  <div class="icon">
-                    <i class="bi bi-broadcast"></i>
-                  </div>
-                  <a href="#" class="stretched-link">
-                    <h3>Eosle Commodi</h3>
-                  </a>
-                  <p>
-                    Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                    sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="400"
-            >
-              <div class="service-item">
-                <div class="img">
-                  <img
-                    src="assets/img/services-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="details position-relative">
-                  <div class="icon">
-                    <i class="bi bi-easel"></i>
-                  </div>
-                  <a href="#" class="stretched-link">
-                    <h3>Ledo Markt</h3>
-                  </a>
-                  <p>
-                    Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                    Minus ea aut. Vel qui id voluptas adipisci eos earum
-                    corrupti.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
             <div
               class="col-xl-4 col-md-6"
               data-aos="zoom-in"
@@ -947,7 +853,7 @@
               <div class="service-item">
                 <div class="img">
                   <img
-                    src="assets/img/services-4.jpg"
+                    src="assets/img/logo.png"
                     class="img-fluid"
                     alt=""
                   />
@@ -957,72 +863,10 @@
                     <i class="bi bi-bounding-box-circles"></i>
                   </div>
                   <a href="#" class="stretched-link">
-                    <h3>Asperiores Commodit</h3>
+                    <h3>Fall 2022-2023 General Assembly</h3>
                   </a>
                   <p>
-                    Non et temporibus minus omnis sed dolor esse consequatur.
-                    Cupiditate sed error ea fuga sit provident adipisci neque.
-                  </p>
-                  <a href="#" class="stretched-link"></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="600"
-            >
-              <div class="service-item">
-                <div class="img">
-                  <img
-                    src="assets/img/services-5.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="details position-relative">
-                  <div class="icon">
-                    <i class="bi bi-calendar4-week"></i>
-                  </div>
-                  <a href="#" class="stretched-link">
-                    <h3>Velit Doloremque</h3>
-                  </a>
-                  <p>
-                    Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                    aut ipsam corporis aut. Sed animi at autem alias eius
-                    labore.
-                  </p>
-                  <a href="#" class="stretched-link"></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="zoom-in"
-              data-aos-delay="700"
-            >
-              <div class="service-item">
-                <div class="img">
-                  <img
-                    src="assets/img/services-6.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="details position-relative">
-                  <div class="icon">
-                    <i class="bi bi-chat-square-text"></i>
-                  </div>
-                  <a href="#" class="stretched-link">
-                    <h3>Dolori Architecto</h3>
-                  </a>
-                  <p>
-                    Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                    neque non et debitis iure. Corrupti recusandae ducimus enim.
+                    
                   </p>
                   <a href="#" class="stretched-link"></a>
                 </div>
@@ -1032,7 +876,55 @@
           </div>
         </div>
       </section>
-      <!-- End Services Section -->
+      <!-- Future Event Section -->
+
+      <!-- ======= Old Event Section ======= -->
+      <section id="oldevenets" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Our Old Events</h2>
+            <!-- <p>
+              Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam
+              occaecati dssumenda quas ut ad dolores adipisci aliquam.
+            </p> -->
+          </div>
+
+          <div class="row gy-5">
+            <div
+              class="col-xl-4 col-md-6"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+            >
+              <div class="service-item">
+                <div class="img">
+                  <img
+                    src="assets/img/charity1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="details position-relative">
+                  <div class="icon">
+                    <i class="bi bi-bounding-box-circles"></i>
+                  </div>
+                  <a href="#" class="stretched-link">
+                    <h3>Charity Event</h3>
+                  </a>
+                  <p>
+                    قال صلى الله عليه وسلم: «أَحَبُّ الأَعْمَالِ إِلَى اللَّهِ سُرُورٌ تُدْخِلُهُ عَلَى مُسْلِمٍ ، أَوْ تَكْشِفُ عَنْهُ كُرْبَةً ، أَوْ تَطْرُدُ عَنْهُ جُوعًا ، أَوْ تَقْضِي عَنْهُ دَيْنًا» (صحيح الجامع).
+
+                  </p>
+                  <a href="oldevent.html" class="readmore stretched-link mt-2"
+                    ><span>Read More</span><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- End Old Event Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
@@ -1042,25 +934,17 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
+                    src="assets/img/testimonials/omarchm.jpg"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
+                  <h3>Omar Chmouri</h3>
+                  <h4>President of the Insight Club</h4>
+
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec
-                    porttitora entum suscipit rhoncus. Accusantium quam,
-                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                    risus at semper.
+                    نتواصل استيلاداً لغذٍ أفضل من خلال سعينا إلى الدعوة إلى الله
+                    على بصيرة
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -1070,47 +954,13 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
+                    src="assets/img/testimonials/israa.jpg"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse
-                    labore quem cillum quid cillum eram malis quorum velit fore
-                    eram velit sunt aliqua noster fugiat irure amet legam anim
-                    culpa.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
+                  <h3>Israa Diab</h3>
+                  <h4>Vice-President of the Insight Club</h4>
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     Enim nisi quem export duis labore cillum quae magna enim
@@ -1125,19 +975,13 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
+                    src="assets/img/no-profile.png"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
+                  <h3>Mohamad Lahib</h3>
+                  <h4>Secretary of the Insight Club</h4>
+
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     Fugiat enim eram quae cillum dolore dolor amet nulla culpa
@@ -1153,25 +997,123 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
+                    src="assets/img/testimonials/rayyan.jpg"
                     class="testimonial-img"
                     alt=""
                   />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
+                  <h3>Rayyan Kilani</h3>
+                  <h4>HC Sisters</h4>
+
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure
-                    aliqua veniam tempor noster veniam enim culpa labore duis
-                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
-                    fore nisi cillum quid.
+                    How my friends from the Insight Club made me feel home, I
+                    would love to make everyone try this feeling ❤️
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/no-profile.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Omar El Hajj Moussa</h3>
+                  <h4>HC Brothers</h4>
+
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/no-profile.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Leen Assairy</h3>
+                  <h4>Social Media and Design</h4>
+
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/no-profile.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Abbas Atout</h3>
+                  <h4>Treasurer and Public Relations Officer</h4>
+
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/pic1-mounir.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Mounir Skafi</h3>
+                  <h4>Member at Large</h4>
+
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Insight Club is my family and I try to strengthen the
+                    bondings among the members and bring new members to enlarge
+                    this nice family
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/batoul.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <h3>Batoul Alghafouri</h3>
+                  <h4>Member at Large</h4>
+
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Events at Insight start by “In the name of Allah” and end by
+                    “ Our Lord, accept from us; You are the Hearer, the Knower”.
+                    Between these two milestones there are unconventional ideas,
+                    hard work, ever vivid memories and Allah blessing.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -1194,7 +1136,8 @@
               <div class="content px-xl-5">
                 <h3>Frequently Asked <strong>Questions</strong></h3>
                 <p>
-                  It is your right to know. This section provides help with the most common questions about Insight Club.
+                  It is your right to know. This section provides help with the
+                  most common questions about Insight Club.
                 </p>
               </div>
 
@@ -1221,13 +1164,12 @@
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Yes, sure non-hijabi girls are welcomed in our club and many are already part of it .
+                      Yes, sure non-hijabi girls are welcomed in our club and
+                      many are already part of it .
                     </div>
                   </div>
                 </div>
                 <!-- # Faq item-->
-
-
               </div>
             </div>
 
@@ -1242,9 +1184,6 @@
       </section>
       <!-- End F.A.Q Section -->
 
-      
-
-
       <!-- ======= Recent Blog Posts Section ======= -->
       <section id="recent-blog-posts" class="recent-blog-posts">
         <div class="container" data-aos="fade-up">
@@ -1254,98 +1193,101 @@
           </div>
 
           <div class="row">
+
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="post-box">
                 <div class="post-img">
                   <img
-                    src="assets/img/blog/blog-1.jpg"
+                    src="assets/img/eyg1.jpeg"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="meta">
-                  <span class="post-date">Tue, December 12</span>
-                  <span class="post-author"> / Julia Parker</span>
+                  <span class="post-date">Tue, August 16</span>
+                  <span class="post-author"> / Shirine Labban, Nursing Graduate</span>
                 </div>
                 <h3 class="post-title">
-                  Eum ad dolor et. Autem aut fugiat debitis voluptatem
-                  consequuntur sit
+                  A Glimpse of My Experience with Insight Club
                 </h3>
                 <p>
-                  Illum voluptas ab enim placeat. Adipisci enim velit nulla. Vel
-                  omnis laudantium. Asperiores eum ipsa est officiis. Modi
-                  cupiditate exercitationem qui magni est...
+                  Truthfully, the Insight Club, more like the Insight family, was the highlight of my university years.
                 </p>
-                <a href="blog-details.php" class="readmore stretched-link"
+                <a href="blog-details.html" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
                 ></a>
               </div>
             </div>
 
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
-              <div class="post-box">
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="meta">
-                  <span class="post-date">Fri, September 05</span>
-                  <span class="post-author"> / Mario Douglas</span>
-                </div>
-                <h3 class="post-title">
-                  Et repellendus molestiae qui est sed omnis voluptates magnam
-                </h3>
-                <p>
-                  Voluptatem nesciunt omnis libero autem tempora enim ut ipsam
-                  id. Odit quia ab eum assumenda. Quisquam omnis aliquid
-                  necessitatibus tempora consectetur doloribus...
-                </p>
-                <a href="blog-details.php" class="readmore stretched-link"
-                  ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Recent Blog Posts Section -->
 
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
-              <div class="post-box">
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="meta">
-                  <span class="post-date">Tue, July 27</span>
-                  <span class="post-author"> / Lisa Hunter</span>
-                </div>
-                <h3 class="post-title">
-                  Quia assumenda est et veritatis aut quae
-                </h3>
-                <p>
-                  Quia nam eaque omnis explicabo similique eum quaerat similique
-                  laboriosam. Quis omnis repellat sed quae consectetur magnam
-                  veritatis dicta nihil...
+      <!-- ======= registeration guide Section ======= -->
+      <section id="registration" class="onfocus">
+        <div class="container-fluid p-0" data-aos="fade-up">
+          <div class="row g-0">
+            <div class="col-lg-6 video-play position-relative">
+              <a
+                href="#"
+                class="glightbox play-btn"
+              ></a>
+            </div>
+            <div class="col-lg-6">
+              <div
+                class="content d-flex flex-column justify-content-center h-100"
+              >
+                <h3>Registration Guide to Join our Club</h3>
+                <p class="fst-italic" style="font-size: 16.5px">
+                  Any current registered AUB student can join the Insight Club
+                  by registering using the online system through Aubsis and
+                  membership fees will be added to the tuition. A student can be
+                  a member of three clubs and two societies only.
                 </p>
-                <a href="blog-details.php" class="readmore stretched-link"
-                  ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a>
+                <ul>
+                  <li>
+                    <i class="bi bi-check-circle"></i>
+                    Click on the Join button and click on Register for Classes.
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle"></i>
+                    Join with your AUB's Username and Password and choice clubs
+                    2022-2023
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle"></i>
+                    Search for Insight Club. Our Crn is 5069. Click Add!
+                    <span style="color: #3279fc">Welcome to your family!!</span>
+                  </li>
+                </ul>
+                <div class="row-1">
+                  <a
+                    href="https://sturegss.aub.edu.lb/StudentRegistrationSsb/ssb/registration"
+                    target="_blank"
+                    class="read-more align-self-start"
+                    ><span>Join Us</span><i class="bi bi-arrow-right"></i
+                  ></a>
+                  <a
+                    href="https://www.aub.edu.lb/SAO/activities/Pages/StudentClubs.aspx"
+                    target="_blank"
+                    class="read-more align-self-start"
+                    ><span>Read More</span><i class="bi bi-arrow-right"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Recent Blog Posts Section -->
+
+      <!-- End registration guide Section -->
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
         <div class="container">
           <div class="section-header">
             <h2>Contact Us</h2>
-            <p>we are here for you</p>
           </div>
         </div>
 
@@ -1367,7 +1309,11 @@
             <div class="col-lg-4">
               <div class="info">
                 <h3>Get in touch</h3>
-                <p>We are here to help and guide you to the truth</p>
+                <p>
+                  You can contact us via Email or one of our social media
+                  accounts. You can reach also here, you just need to write your
+                  name, email and your message, and we will get back to you ASAP.❤️
+                </p>
 
                 <div class="info-item d-flex">
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -1382,7 +1328,7 @@
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
                     <h4>Email:</h4>
-                    <p>info@example.com</p>
+                    <p>insightclub.aub@gmail.com</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1398,13 +1344,8 @@
               </div>
             </div>
 
-            <div class="col-lg-8">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
+            <div class="col-lg-8 flex justify-content-center" >
+              <form method="post" role="form" class="html-email-form mt-5" >
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
@@ -1445,15 +1386,11 @@
                     required
                   ></textarea>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
+
+                <div class="text-center mt-5">
+                  <button class="btn btn-primary" type="submit">
+                    Send Message
+                  </button>
                 </div>
               </form>
             </div>
@@ -1476,8 +1413,8 @@
                 <p>
                   Bliss Hamra <br />
                   Beirut, Lebanon<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> Insightclubaub@gmail.com<br />
+                  <strong>Phone:</strong> +961 71 635611<br />
+                  <strong>Email:</strong> insightclub.aub@gmail.com<br />
                 </p>
               </div>
             </div>
@@ -1492,11 +1429,11 @@
                   <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
                 </li>
                 <li>
-                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Student Life Guide</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
-                  <a href="#">Terms of service</a>
+                  <a href="#">Courses’ Catalogue</a>
                 </li>
                 <li>
                   <i class="bi bi-chevron-right"></i>
@@ -1508,14 +1445,10 @@
             <div class="col-lg-3 col-md-6 footer-links"></div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>Subscribe to our Newsletter to know us more</p>
-              <form action="" method="post">
-                <input type="email" name="email" /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </form>
+              <h4>Our Motto:</h4>
+              <p style="font-size: 17px;">ومَن أَحسَنُ قوْلاً ممَّن دعَا إلى اللَّه و عمِلَ صالِحاً و قال إنَّنِي من" المُسلمين" (فصلت 33)</p>
+              <p style="font-size: 17px;">{Who is better in speech than one who calls (men) to Allah, works righteousness, and says, "I am of those who bow in Islam"?} (41:33)</p>
+           
             </div>
           </div>
         </div>
@@ -1529,16 +1462,35 @@
             class="d-flex flex-column align-items-center align-items-lg-start"
           >
             <div class="copyright">
-              &copy; Copyright <strong><span><u style="color: gray;">Insight Club AUB</u></span></strong
+              &copy; Copyright
+              <strong
+                ><span
+                  ><u style="color: gray">Insight Club AUB</u></span
+                ></strong
               >. All Rights Reserved
             </div>
           </div>
 
           <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/AUBInsightClub/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/insight_club_aub/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/aub-insight-club/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a
+              href="https://www.facebook.com/AUBInsightClub/"
+              target="_blank"
+              class="facebook"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/insight_club_aub/"
+              target="_blank"
+              class="instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/aub-insight-club/"
+              target="_blank"
+              class="linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -1553,20 +1505,51 @@
 
     <div id="preloader"></div>
 
+
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/html-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <script src="assets/js/app.js"></script>
+
+
+
   </body>
 </html>
 
+      
+<!-- Modal 40 anniversary -->
+<div class="modal fade" id="anniversaryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Insight's Club 40 Year Anniversary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 
-<?php
+        <p>إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلًا </p>
+         
+      
+      </div>
+     
+    </div>
+  </div>
+</div>
 
-?>
+
+
