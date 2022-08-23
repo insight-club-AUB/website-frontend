@@ -155,6 +155,19 @@
 
 }
 
+
+.dark-theme{
+  --color-primary: #161D31;
+  --color-secondary: #161D31;
+  --color-secondary-light: #161D31;
+  --color-secondary-light-rgb: #161D31;
+  --color-white: #161D31;
+  --color-white-rgb: #161D31;
+  --color-secondary-light-rgb: #161D31;
+  --color-secondary-rgb: #161D31;
+
+}
+
 /*--------------------------------------------------------------
 # 3. Set color and background class names
 --------------------------------------------------------------*/
