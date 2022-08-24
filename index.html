@@ -47,6 +47,26 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
+    <!-- <style id="scrollbar">
+    
+      /** FOR DARK SCROLLBAR */
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+  
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #161d31;
+      }
+  
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #7367f0;
+        border-radius: 30px 30px 30px 30px;
+      }
+  
+        </style> -->
   </head>
 
   <body>
@@ -83,7 +103,7 @@
               >
             </li>
 
-            <!-- <li><a href="blog.html">Blog</a></li> -->
+            <li><a href="blog.html">Blog</a></li>
 
             <li>
               <a class="nav-link scrollto" href="index.html#contact"
@@ -95,16 +115,7 @@
                 >Join Us</a
               >
             </li>
-            <li>
-              <a class="nav-link scrollto" 
-                ></a
-              >
-            </li>
-            <li>
-              <a class="nav-link scrollto" 
-                ></a
-              >
-            </li>
+
             <li>
               <a class="nav-link scrollto"
                 >
@@ -114,25 +125,44 @@
                 </a
               >
             </li>
-        
+           
           </ul>
           <i class="bi bi-list mobile-nav-toggle d-none"></i>
         </nav>
         <!-- .navbar -->
+
+
+  
         <a class="d-flex align-items-center scrollto me-auto me-lg-3">
+          <div id="arrowAnim" class="col-md-2 ml-2">
+            <div class="arrowSliding">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+              <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+              <div class="arrow"></div>
+            </div>
+          </div>
           <img
 
           id= "anniversary_img"
           data-toggle="modal" 
           data-target="#anniversaryModal"
           class="img-fluid img-responsive rounded"
-          src="assets/img/40anni2.png"
+          src="assets/img/40yearanni2.png"
           alt=""
-          width="125"
-          height="100"
+          width="110"
+          height="90"
         />
         </a>
+        
       </div>
+     
 
     </header>
     <!-- End Header -->
@@ -185,7 +215,7 @@
               data-aos-delay="200"
             >
               <div class="service-item position-relative">
-                <h3><a href="" class="stretched-link">Fraternity</a></h3>
+                <h3><a href="" class="stretched-link">Cultivating Fraternity</a></h3>
                 <p style="font-size: 20px">
                   قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ
                 </p>
@@ -1191,6 +1221,34 @@
                   </div>
                 </div>
                 <!-- # Faq item-->
+
+                <div
+                  class="accordion-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      <i class="bi bi-question-circle question-icon"></i>
+                      <p>What is the <b > CRN </b> of the club?</p>
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist"
+                  >
+                    <div class="accordion-body">
+                      The CRN is 5069. You can check our <a href="index.html#registration">Registration section</a> to know more details.
+                    </div>
+                  </div>
+                </div>
+                <!-- # Faq item-->
               </div>
             </div>
 
@@ -1545,6 +1603,8 @@
 
     <script src="assets/js/app.js"></script>
 
+    
+
 
 
   </body>
@@ -1553,15 +1613,23 @@
       
 <!-- Modal 40 anniversary -->
 <div class="modal fade" id="anniversaryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-  <div class="modal-dialog" role="document" >
+  <div class="modal-dialog modal-dialog-scrollable" role="document" >
     <div class="modal-content" >
-      <div class="modal-header" style="background: #C2D5DB;">
-        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 24px;color: #005E84;  font: Gotham;">Insight's Club 40 Year Anniversary</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <div class="modal-header" style="background: #005E84;">
+        <h5 class="modal-title" id="exampleModalLabel" style="font-size: 24px;color: white;  font: Gotham;">Insight's Club 40 Year Anniversary</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background: white">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body" style="background: #39C795;">
+      <div class="modal-body" style="background: #005E84;">
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/img/since.png"/ width="458" height="200" style="border-radius: 5px; border: 1px solid white;">
+
+          </div>
+        </div>
+        <br>
 
          <p style="font-size: 20px ; font: Gotham; text-align: justify; color: white;"> The Insight Club was formed 40 years ago by Muslim alumnus for the sole purpose of creating an Islamic environment inside AUB to support the Muslim community. 
           Through various social, intellectual, spiritual, academic, and physical activities, the club managed to host many students and grow its community.
