@@ -461,7 +461,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    top: 5px;
+    top: 4px;
     z-index: 9999;
     right: 7px;
   }
