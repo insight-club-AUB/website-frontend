@@ -77,25 +77,26 @@
       >
         <a
           href="index.html"
-          class="logo d-flex align-items-center scrollto me-auto me-lg-0"
+          class="d-flex align-items-center scrollto me-auto me-lg-1 mr-2"
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img
             class="img-fluid img-responsive rounded"
-            src="assets/img/insightlogo.jpg"
+            src="assets/img/logo2.png"
             alt=""
+            width="180"
+            height="10"
           />
-          <h2>Insight Club AUB<span>.</span></h2>
         </a>
 
         <nav id="navbar" class="navbar">
           <ul>
             <li class="">
-              <a href="#"><span>Home</span> <i class="bi"></i></a>
+              <a href="#"><span >Home</span> <i class="bi"></i></a>
             </li>
 
             <li>
-              <a class="nav-link scrollto" href="index.html#about">About</a>
+              <a class="nav-link scrollto" href="index.html#about">About Us</a>
             </li>
             <li>
               <a class="nav-link scrollto" href="index.html#services"
@@ -178,31 +179,66 @@
         class="container d-flex flex-column align-items-center position-relative"
         data-aos="zoom-out"
       >
-        <h2>Welcome to <span>Insight Club {AUB} Page</span></h2>
-        <p>A supportive community guided by the prophetic purpose of mercy for all people.</p>
+        <h2  style= "color: #005E84;">Welcome to <span style="color: #005E84; font-weight: bold;">Insight Club AUB Page</span></h2>
+        <p style="color: #4E90B9; font-family: sans-serif">A supportive community guided by the prophetic purpose of mercy for all people.</p>
+        
         <div class="d-flex">
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#about" class="btn-get-started scrollto" onMouseOver="this.style.backgroundColor='#39C795'" onMouseOut="this.style.backgroundColor='#4E90B9'">Get Started</a>
           <a
+            onMouseOver="this.style.color='#39C795'" onMouseOut="this.style.color='#4E90B9'"
             href="https://youtu.be/G7UyE4TsM88"
-            class="glightbox btn-watch-video d-flex align-items-center"
-            ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
+            class="glightbox btn-watch-video d-flex align-items-center">
+            <i onMouseOver="this.style.color='#39C795'" onMouseOut="this.style.color='#4E90B9'" class="bi bi-play-circle">
+            </i>
+            <span
+            >Watch Video</span>
+            </a
           >
         </div>
       </div>
     </section>
 
     <main id="main">
+
+
       <!-- ======= Featured Services Section ======= -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>About Us</h2>
+            <p style="color: #454545; font-size: 22px; text-align: center; text-align:justify;  ">
+              The Insight Club is an independent student club at the American University of Beirut (AUB).
+              Our mission is to provide perspectives on a well-rounded way of living and appreciating life through balancing between physical, intellectual, and spiritual needs. 
+              Our events include charity projects, cultural celebrations, and intellectual activities.
+              We aim to provide our members with opportunities to grow and with new dimensions to the diverse AUB experience. We develop our members in various aspects of life.
+              Social, Physical, Academic, Spiritual, and Intellectual.
+
+            </p>
+          </div>
+
+        </div>
+      </section>
+      <!-- End About Section -->
+
+        
       <section id="featured-services" class="featured-services">
         <div class="container">
+          <div class="section-header">
+            <h2>Our Objectives</h2>
+
+          </div>
+
           <div class="row gy-3">
-            <div class="col-xl-5 col-md-6 d-flex" data-aos="zoom-out">
-              <div class="service-item position-relative">
-                <h3>
+            <div class="col-md-5 d-flex" data-aos="zoom-out" style="justify-content: center;">
+              <div class="service-item">
+                
+                <h4>
                   <a href="" class="stretched-link"
                     >Strengthening Certainty In Belief</a
                   >
-                </h3>
+                </h4>
                 <p style="font-size: 20px">
                   فَاسْتَمْسِكْ بِالَّذِي أُوحِيَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ
                   صِرَاطٍ مُسْتَقِيمٍ
@@ -213,12 +249,13 @@
             <!-- End Service Item -->
 
             <div
-              class="col-xl-3 col-md-6 d-flex"
+              class="col-md-3"
               data-aos="zoom-out"
               data-aos-delay="200"
+              style="justify-content: centered;"
             >
               <div class="service-item position-relative">
-                <h3><a href="" class="stretched-link">Cultivating Fraternity</a></h3>
+                <h4><a href="" class="stretched-link">Cultivating Fraternity</a></h4>
                 <p style="font-size: 20px">
                   قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ
                 </p>
@@ -228,16 +265,16 @@
             <!-- End Service Item -->
 
             <div
-              class="col-xl-4 col-md-6 d-flex"
+              class="col-md-4"
               data-aos="zoom-out"
               data-aos-delay="400"
             >
               <div class="service-item position-relative">
-                <h3>
+                <h4>
                   <a href="" class="stretched-link"
                     >Demonstrating Virtues of Islam</a
                   >
-                </h3>
+                </h4>
                 <p style="font-size: 20px">
                   إِنَّ هَٰذَا الْقُرْآنَ يَهْدِي لِلَّتِي هِيَ أَقْوَمُ
                 </p>
@@ -251,212 +288,203 @@
       <!-- End Featured Services Section -->
 
       <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>About Us</h2>
-            <p style="color: rgb(44, 38, 38); font-size: 22px; text-align: center">
-              The Insight Club is an independent student club at the American University of Beirut (AUB).
-              Our mission is to provide perspectives on a well-rounded way of living and appreciating life through balancing between physical, intellectual, and spiritual needs. 
-              Our events include charity projects, cultural celebrations, and intellectual activities.
-              We aim to provide our members with opportunities to grow and with new dimensions to the diverse AUB experience. We develop our members in various aspects of life.
-              Social, Physical, Academic, Spiritual, and Intellectual.
-
-            </p>
-          </div>
-
-          <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-5">
-              <div class="about-img">
-                <img src="assets/img/cta.png" class="img-fluid" alt="" />
+      <section id="programs " class="about">
+            <div class="container" data-aos="fade-up">
+              <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-5">
+                  <div class="about-img">
+                    <img src="assets/img/cta.png" class="img-fluid" alt="" />
+                  </div>
+                </div>
+    
+                <div class="col-lg-7">
+                  <h3 class="pt-0 pt-lg-5">Our Programs</h3>
+    
+                  <!-- Tabs -->
+                  <ul class="nav nav-pills mb-3">
+                    <li>
+                      <a class="nav-link active" data-bs-toggle="pill" href="#tab1"
+                        >Social</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link" data-bs-toggle="pill" href="#tab2"
+                        >Spiritual</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link" data-bs-toggle="pill" href="#tab3"
+                        >Physical</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link" data-bs-toggle="pill" href="#tab4"
+                        >Academic</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link" data-bs-toggle="pill" href="#tab5"
+                        >Intellectual</a
+                      >
+                    </li>
+                  </ul>
+                  <!-- End Tabs -->
+    
+                  <!-- Tab Content -->
+                  <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab1">
+                      <p class="fst-italic">
+                        Our club social life is built on the fact that we are brothers and sisters in Islam.
+                        <br>
+                        إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ (الحجرات – 10)
+    
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>
+                          Our Aims
+                        </h4>
+                      </div>
+                      <p>
+                        The club aims to build bonds between the members and provide them with a safe environment where they can grow with  Suhba Saliha. The Insight social life is more likely to be a comfort zone where you can meet friends, create memories, and become closer to Allah.                   </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>One Big Family </h4>
+                      </div>
+                      <p>
+                        Once you become a part of the Insight family, you cannot deny your favorite game is “find the insightee” on campus! 
+                        Interactions on the groups are never limited with constant support, shared pictures, and feelings. 
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Our Activities</h4>
+                      </div>
+                      <p>
+                        Our social activities take place every now and then: movie night for sisters, ping pong game for brothers, informal gatherings, and many more.
+                      </p>
+                    </div>
+                    <!-- End Tab 1 Content -->
+    
+                    <div class="tab-pane fade show" id="tab2">
+                      <p class="fst-italic">
+                        One of the main aims of the club is to strengthen each member Islam through:
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>
+                          Repudiandae rerum velit modi et officia quasi facilis
+                        </h4>
+                      </div>
+                      <p>
+                        Weekly events such as: Halaka with Sheikh, Quran to read and recite Quran, and intellectual discussions 
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                      </div>
+                      <p>
+                        Events according to Islamic calendar such as Islamic new year and Ramadan event, night, Tarawih and congregational prayers.  
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
+                      </div>
+                      <p>
+                        Discussions and activities among members to enhance spiritual spirits.
+                      </p>
+                    </div>
+                    <!-- End Tab 2 Content -->
+    
+                    <div class="tab-pane fade show" id="tab3">
+                      <p class="fst-italic">
+                        Several physical activities were organized among sisters and brothers:
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>
+                          Repudiandae rerum velit modi et officia quasi facilis
+                        </h4>
+                      </div>
+                      <p>
+                        Each made WhatsApp groups to organize sport activities like basketball, swimming, pingpong, volleyball and many other
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                      </div>
+                      <p>
+                        Club organized group activities such as hiking trip to the Barouk Cedars reserve 
+                      </p>
+    
+                    </div>
+                    <!-- End Tab 3 Content -->
+                    <div class="tab-pane fade show" id="tab4">
+                      <p class="fst-italic">
+                        Insight club supports on the academic progress through 
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>
+                          Repudiandae rerum velit modi et officia quasi facilis
+                        </h4>
+                      </div>
+                      <p>
+                        Organizing Book exchange program at the beginning of every semester where members, alumni and libraries donate books for the help of the other students.
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                      </div>
+                      <p>
+                        Tutoring program through developing 1-1 sessions and group classes before exams 
+                        Uploading several previouses on prexams website
+                        Building courses databases for every major  
+                      </p>
+    
+                    </div>
+                    <!-- End Tab 4 Content -->
+                    <div class="tab-pane fade show" id="tab5">
+                      <p class="fst-italic">
+                      </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>
+                          Repudiandae rerum velit modi et officia quasi facilis
+                        </h4>
+                      </div>
+                      <p>
+                        Intellectual discussions take place every week to discuss and negotiate about very confusing and challenging topics between members and sometimes inviting expertise into the matter.                   </p>
+    
+                      <div class="d-flex align-items-center mt-4">
+                        <i class="bi bi-check2"></i>
+                        <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                      </div>
+                      <p>
+                        Club organized group activities such as hiking trip to the Barouk Cedars reserve 
+                      </p>
+    
+                    </div>
+                    <!-- End Tab 5 Content -->
+                  </div>
+                </div>
               </div>
+    
             </div>
-
-            <div class="col-lg-7">
-              <h3 class="pt-0 pt-lg-5">Our Programs</h3>
-
-              <!-- Tabs -->
-              <ul class="nav nav-pills mb-3">
-                <li>
-                  <a class="nav-link active" data-bs-toggle="pill" href="#tab1"
-                    >Social</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab2"
-                    >Spiritual</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab3"
-                    >Physical</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab4"
-                    >Academic</a
-                  >
-                </li>
-                <li>
-                  <a class="nav-link" data-bs-toggle="pill" href="#tab5"
-                    >Intellectual</a
-                  >
-                </li>
-              </ul>
-              <!-- End Tabs -->
-
-              <!-- Tab Content -->
-              <div class="tab-content">
-                <div class="tab-pane fade show active" id="tab1">
-                  <p class="fst-italic">
-                    Our club social life is built on the fact that we are brothers and sisters in Islam.
-                    <br>
-                    إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ (الحجرات – 10)
-
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Our Aims
-                    </h4>
-                  </div>
-                  <p>
-                    The club aims to build bonds between the members and provide them with a safe environment where they can grow with  Suhba Saliha. The Insight social life is more likely to be a comfort zone where you can meet friends, create memories, and become closer to Allah.                   </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>One Big Family </h4>
-                  </div>
-                  <p>
-                    Once you become a part of the Insight family, you cannot deny your favorite game is “find the insightee” on campus! 
-                    Interactions on the groups are never limited with constant support, shared pictures, and feelings. 
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Our Activities</h4>
-                  </div>
-                  <p>
-                    Our social activities take place every now and then: movie night for sisters, ping pong game for brothers, informal gatherings, and many more.
-                  </p>
-                </div>
-                <!-- End Tab 1 Content -->
-
-                <div class="tab-pane fade show" id="tab2">
-                  <p class="fst-italic">
-                    One of the main aims of the club is to strengthen each member Islam through:
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Weekly events such as: Halaka with Sheikh, Quran to read and recite Quran, and intellectual discussions 
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Events according to Islamic calendar such as Islamic new year and Ramadan event, night, Tarawih and congregational prayers.  
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                  </div>
-                  <p>
-                    Discussions and activities among members to enhance spiritual spirits.
-                  </p>
-                </div>
-                <!-- End Tab 2 Content -->
-
-                <div class="tab-pane fade show" id="tab3">
-                  <p class="fst-italic">
-                    Several physical activities were organized among sisters and brothers:
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Each made WhatsApp groups to organize sport activities like basketball, swimming, pingpong, volleyball and many other
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Club organized group activities such as hiking trip to the Barouk Cedars reserve 
-                  </p>
-
-                </div>
-                <!-- End Tab 3 Content -->
-                <div class="tab-pane fade show" id="tab4">
-                  <p class="fst-italic">
-                    Insight club supports on the academic progress through 
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Organizing Book exchange program at the beginning of every semester where members, alumni and libraries donate books for the help of the other students.
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Tutoring program through developing 1-1 sessions and group classes before exams 
-                    Uploading several previouses on prexams website
-                    Building courses databases for every major  
-                  </p>
-
-                </div>
-                <!-- End Tab 4 Content -->
-                <div class="tab-pane fade show" id="tab5">
-                  <p class="fst-italic">
-                  </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>
-                      Repudiandae rerum velit modi et officia quasi facilis
-                    </h4>
-                  </div>
-                  <p>
-                    Intellectual discussions take place every week to discuss and negotiate about very confusing and challenging topics between members and sometimes inviting expertise into the matter.                   </p>
-
-                  <div class="d-flex align-items-center mt-4">
-                    <i class="bi bi-check2"></i>
-                    <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                  </div>
-                  <p>
-                    Club organized group activities such as hiking trip to the Barouk Cedars reserve 
-                  </p>
-
-                </div>
-                <!-- End Tab 5 Content -->
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
       <!-- End About Section -->
+
+   
 
       <!-- ======= Subcommitte Section ======= -->
       <section id="features" class="features">
@@ -1177,7 +1205,7 @@
               class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
             >
               <div class="content px-xl-5">
-                <h3>Frequently Asked <strong>Questions</strong></h3>
+                <h3 style="color: #005E84;">Frequently Asked <strong>Questions</strong></h3>
                 <p>
                   It is your right to know. This section provides help with the
                   most common questions about Insight Club.

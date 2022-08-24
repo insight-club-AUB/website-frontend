@@ -22,7 +22,7 @@
 
   /* Fonts */
   --font-default: 'Open Sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: 'Source Sans Pro', sans-serif;
+  --font-primary: 'Source Sans Pro',sans-serif;
   --font-secondary: 'Poppins', sans-serif;
 
   /* Colors */
@@ -33,11 +33,11 @@
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
-  --color-links: #3279fc;
-  --color-links-hover: #4797ff;
+  --color-links: #005E84;
+  --color-links-hover: #39C795;
 
   /* Primay colors */
-  --color-primary: #3279fc;
+  --color-primary: #4E90B9;
   --color-primary-light: #4797ff;
   --color-primary-dark: #1c61e2;
 
@@ -55,7 +55,7 @@
   --color-secondary-dark-rgb: 59, 83, 128;
 
   /* General colors */
-  --color-blue: #0d6efd;
+  --color-blue: #4E90B9;
   --color-blue-rgb: 13, 110, 253;
 
   --color-indigo: #6610f2;
