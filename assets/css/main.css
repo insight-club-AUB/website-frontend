@@ -461,9 +461,9 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    top: 20px;
+    top: 5px;
     z-index: 9999;
-    right: 20px;
+    right: 7px;
   }
   .mobile-nav-toggle.bi-x {
     color: var(--color-white);
@@ -2956,3 +2956,4 @@ section {
    80% { opacity:1; transform: translateX(-9px); }  
   100% { opacity:0; transform: translateX(-15px); } 
 }
+
