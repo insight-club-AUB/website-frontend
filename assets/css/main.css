@@ -1050,11 +1050,12 @@ section {
   background: none;
   font-size: 18px;
   font-weight: 400;
-  color: var(--color-secondary);
+  color: #4E90B9;
   padding: 12px 0;
   margin-bottom: -2px;
   border-radius: 0;
   font-family: var(--font-secondary);
+  font-weight: bold;
 }
 .about .nav-link.active {
   color: var(--color-primary);
@@ -1343,7 +1344,7 @@ section {
 .features .nav-link {
   border: 0;
   padding: 25px 20px;
-  color: var(--color-secondary);
+  color: C2D5DB;
   box-shadow: 5px 5px 25px rgba(var(--color-secondary-rgb), 0.15);
   border-radius: 0;
   display: flex;
@@ -1360,7 +1361,7 @@ section {
 }
 .features .nav-link h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   margin: 10px 0 0 0;
   color: var(--color-secondary);
 }
@@ -1369,14 +1370,15 @@ section {
 }
 .features .nav-link.active {
   transition: 0.3s;
-  background: var(--color-secondary) linear-gradient(rgba(var(--color-primary-rgb), 0.95), rgba(var(--color-primary-rgb), 0.6));
+  background-color: #C2D5DB;
   border-color: var(--color-primary);
 }
 .features .nav-link.active h4 {
-  color: var(--color-white);
+  color: #005E84;
+  font-weight: bold;
 }
 .features .nav-link.active i {
-  color: var(--color-white) !important;
+  color: #005E84 !important;
 }
 .features .tab-content {
   margin-top: 30px;
