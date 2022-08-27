@@ -1240,7 +1240,7 @@ section {
   transition: 0.3s;
 }
 .onfocus .content .read-more:hover {
-  background: rgba(var(--color-primary-rgb), 0.9);
+  background-color: #39C795 ;
   padding-right: 19px;
 }
 .onfocus .content .read-more:hover i {
@@ -1952,11 +1952,11 @@ section {
 .recent-blog-posts .post-box .meta .post-author {
   font-size: 15px;
   font-weight: 400;
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 .recent-blog-posts .post-box .post-title {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: #005E84;
   font-weight: 700;
   margin: 15px 0 0 0;
   position: relative;
@@ -2008,6 +2008,7 @@ section {
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
+  color: #005E84;
 }
 .contact .info p {
   color: var(--color-secondary-light);
@@ -2030,7 +2031,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--color-secondary);
+  color: #005E84;
 }
 .contact .info-item p {
   padding: 0;
@@ -2407,6 +2408,7 @@ section {
   color: rgba(var(--color-gray-rgb), 0.8);
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Blog Sidebar
