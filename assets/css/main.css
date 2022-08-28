@@ -851,32 +851,32 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: var(--color-white);
-  background: var(--color-primary);
+  background-color: #4E90B9;
   font-family: var(--font-secondary);
 }
 .hero-fullscreen .btn-get-started:hover {
-  background: rgba(var(--color-primary-rgb), 0.8);
+  background-color: #39C795;
 }
 .hero-fullscreen .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: #4E90B9;
   font-weight: 600;
 }
 .hero-fullscreen .btn-watch-video i {
-  color: var(--color-primary);
+  color: #4E90B9;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
   margin-right: 8px;
 }
 .hero-fullscreen .btn-watch-video:hover {
-  color: var(--color-primary);
+  color: #39C795;
 }
 .hero-fullscreen .btn-watch-video:hover i {
-  color: rgba(var(--color-primary-rgb), 0.8);
+  color: #39C795;
 }
 @media (max-width: 640px) {
   .hero-fullscreen h2 {
