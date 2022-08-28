@@ -2277,6 +2277,14 @@ section {
 .blog .blog-details .content {
   margin-top: 20px;
 }
+
+.blog .blog-details .content img{
+  border:6px solid #39C795;
+  padding:-10px; 
+  margin:-10px; 
+  border-radius: 5px;
+}
+
 .blog .blog-details .content h3 {
   font-size: 22px;
   margin-top: 30px;
