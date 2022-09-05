@@ -1479,6 +1479,10 @@ section {
 .services .service-item:hover .details h3 {
   color: var(--color-primary);
 }
+
+.services .service-item:hover .details p {
+  color: var(--color-primary);
+}
 .services .service-item:hover .details .icon {
   background: var(--color-white);
   border: 2px solid var(--color-primary);
