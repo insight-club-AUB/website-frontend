@@ -47,26 +47,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-    <!-- <style id="scrollbar">
-    
-      /** FOR DARK SCROLLBAR */
-      /* width */
-      ::-webkit-scrollbar {
-        width: 10px;
-      }
-  
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #161d31;
-      }
-  
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: #7367f0;
-        border-radius: 30px 30px 30px 30px;
-      }
-  
-        </style> -->
+
   </head>
 
   <body>
@@ -125,7 +106,7 @@
 
         <!-- .navbar -->
 
-        <div>
+        <div style="cursor: pointer;" data-toggle="modal" data-target="#anniversaryModal">
           <a class="d-flex align-items-center scrollto me-auto me-lg-1">
             <div id="arrowAnim" class="col-md-2 ml-2">
               <div class="arrowSliding">
@@ -142,6 +123,7 @@
               </div>
             </div>
             <img
+            style="cursor: pointer;"
               id="anniversary_img"
               data-toggle="modal"
               data-target="#anniversaryModal"
